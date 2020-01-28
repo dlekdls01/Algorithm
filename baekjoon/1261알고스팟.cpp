@@ -33,7 +33,7 @@ int main(void) {
 			cin >> map[i][j];
 		}
 	}
-
+ 
 	//
 	priority_queue<ST, vector<ST>, cmp> pq;
 	ST now, next;
