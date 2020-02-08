@@ -5,10 +5,10 @@ using namespace std;
 
 /*
 j원일때 i라는 돈으로 낼 수 있는 가지수 누적합
-   1 2 3 4 5
-1  1 1 1 1 1
-2  x 2 2 3 3
-5  x x x x 4
+   1 2 3 4 5  : j 원일때
+1  1 1 1 1 1  : 1원으로 각 j원에 낼 수 있는 가짓수
+2  x 2 2 3 3  : 2원으로 각 j원에 낼 수 있는 가짓수 + 윗행
+5  x x x x 4  : 5원으로 각 j원에 낼 수 있는 가짓수 + 윗행
 */
 int solution(int n, vector<int> money) {
     int answer = 0;
